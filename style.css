@@ -1,0 +1,159 @@
+body {
+  background-color: #eee;
+  padding: 0px;
+  font-family: "century gothic", verdana, arial, sans-serif;
+  font-size: 1em;
+}
+h1 {
+font-weight: normal;
+text-transform: capitalize;
+font-size: 1.5em;
+padding-top: 0px;
+
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+select, input {
+  border: solid 1px #999;
+  padding: 0px 10px;
+  line-height: 25px;
+  height: 25px;
+  background: white;
+  margin-right: 15px;
+}
+
+#go {
+  background: #333;
+  color: white;
+  line-height: 25px;
+  height: 25px;
+  border: 0px;
+  padding: 0px 10px;
+  border-radius: 4px;
+}
+
+#go:hover {
+background: #777;
+}
+
+select {
+  border-radius: 10px;
+
+}
+
+#wrapper {
+position: relative;
+width: 100%;
+margin: 0px;
+}
+
+#header {
+  z-index: 3;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: rgba(180, 180, 180, 0.9);
+  padding: 30px;
+  border-bottom: solid 1px white;
+}
+
+#arts-dna-image {
+  margin-top: 225px;
+}
+
+.cell {
+  position: relative;
+  width: 370px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #777;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.cell img {
+max-width: 100%;
+}
+
+.favebutton {
+    z-index: 2;
+    background: #eee;
+    border-radius: 4px;
+
+     /*margin: 5px 0;
+     position: relative;
+     display: block;
+     color: red;
+     width: 0px;
+     height: 0px;
+     border-right:  10px solid transparent;
+     border-bottom: 7px  solid red;
+     border-left:   10px solid transparent;
+     -moz-transform:    rotate(35deg);
+     -webkit-transform: rotate(35deg);
+     -ms-transform:     rotate(35deg);
+     -o-transform:      rotate(35deg);
+  }
+  .favebutton:before {
+     border-bottom: 8px solid red;
+     border-left: 3px solid transparent;
+     border-right: 3px solid transparent;
+     position: absolute;
+     height: 0;
+     width: 0;
+     top: -4.5px;
+     left: -6.5px;
+     display: block;
+     content: '';
+     -webkit-transform: rotate(-35deg);
+     -moz-transform:    rotate(-35deg);
+     -ms-transform:     rotate(-35deg);
+     -o-transform:      rotate(-35deg);
+
+  }
+  .favebutton:after {
+     position: absolute;
+     display: block;
+     color: red;
+     top: 3px;
+     left: -10.5px;
+     width: 0px;
+     height: 0px;
+     border-right: 10px solid transparent;
+     border-bottom: 7px solid red;
+     border-left: 10px solid transparent;
+     -webkit-transform: rotate(-70deg);
+     -moz-transform:    rotate(-70deg);
+     -ms-transform:     rotate(-70deg);
+     -o-transform:      rotate(-70deg);
+     content: '';
+  }
+/*https://css-tricks.com/examples/ShapesOfCSS/*/
+
+}
+
+.favebutton.on {
+background: yellow;
+}
+
+
+
+
+#find-all-fave {
+  background: #333;
+  color: white;
+  line-height: 25px;
+  height: 25px;
+  border: 0px;
+  padding: 0px 10px;
+  border-radius: 4px;
+  }
+
+  #find-all-fave:hover {
+    background: red;
+    }

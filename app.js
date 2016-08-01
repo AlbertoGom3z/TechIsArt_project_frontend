@@ -1,7 +1,7 @@
 window.onload = function() {
   console.log('lockedin');
 
-var url = "https://nameless-headland-69072.herokuapp.com/"
+var url = "https://nameless-headland-69072.herokuapp.com"
 // var url = 'http://localhost:3000';
 
 var goButton = document.getElementById("go");

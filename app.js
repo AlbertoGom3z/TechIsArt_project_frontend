@@ -67,7 +67,7 @@ var getResults = function() {
    //console.log(data);
 
    $.ajax({
-     url: fullQuery + '/arts/search/',
+     url: url + '/arts/search/',
      method: 'POST',
      data: data,
      dataType: 'json'

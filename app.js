@@ -1,7 +1,11 @@
 window.onload = function() {
   console.log('lockedin');
 
+<<<<<<< HEAD
 var url = "https://nameless-headland-69072.herokuapp.com"
+=======
+var url = "https://secure-citadel-68522.herokuapp.com"
+>>>>>>> master
 // var url = 'http://localhost:3000';
 
 var goButton = document.getElementById("go");
